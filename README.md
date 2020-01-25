@@ -40,13 +40,25 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Q Answer: 
+1. res.json - sends a response that parses through JSON 
+2. Router - performing middleware and routing functions 
+
 - [ ] Describe Middleware?
+
+Q Answer: helper function(s) that can be passed through the (req, res, next) objects 
 
 - [ ] Describe a Resource?
 
+Q Answer: Database Schemas and endpoints /
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+Q Answer: a response or sucess code 200, 201, 204.
+
 - [ ] How can we partition our application into sub-applications?
+
+Q Answer: by using express routing 
 
 ## Minimum Viable Product
 
