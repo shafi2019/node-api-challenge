@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
     })
     .catch(error => {
         res.status(500).json({ 
-            message: "Action did not find"
+            message: "Did not find the action", error
         })
     })
 })
@@ -22,7 +22,7 @@ router.post('/:id', (req, res) => {
     })
     .catch(error => {
         res.status(404).json({
-            message: "can not be added"
+            message: "can not add action", error
         })
     })
 });
